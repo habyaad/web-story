@@ -1,0 +1,162 @@
+nav {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .nav-links {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .company-name a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  header li {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: rgb(119, 189, 132);
+  }
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the card container */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    height: 90vh; /* Set height of container to full viewport height */
+  }
+  
+  /* Style the card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    width: 370px; /* Set width of card */
+  }
+  
+  /* Style the lecturer image */
+  .card-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-image img {
+    object-fit: scale-down; /* Scale the image to fit the container without distorting it */
+    border-radius: 50%;
+  }
+  
+  /* Style the content section */
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #336699; /* Set color of title */
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .card-about {
+    color: #666; /* Set color of about section */
+    font-size: 13px;
+    margin: 0 0 20px;
+  }
+  
+  /* Style the contact section */
+  .card-contact {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .card-icon {
+    background-color: #336699; /* Set background color of icon */
+    border-radius: 50%; /* Make icon circular */
+    color: #fff; /* Set color of icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .card-icon i {
+    font-size: 20px;
+  }
+  
+  .card-details a {
+    color: #336699; /* Set color of contact details link */
+    margin-left: 10px; /* Add space between icon and contact details */
+    text-decoration: none; /* Remove underline from link */
+  }
+  .lecturers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      margin-top: 15px;
+    }
+  }
